@@ -1,0 +1,1 @@
+// This component holds the Social media icon with links.

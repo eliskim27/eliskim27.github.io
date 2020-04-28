@@ -1,0 +1,1 @@
+// This component will hold the Education Details (as shown in the final result GIF above).

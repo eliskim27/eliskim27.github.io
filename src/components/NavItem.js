@@ -1,0 +1,1 @@
+// This component will be the navigation items (e.g. Home, About, Education,…).
