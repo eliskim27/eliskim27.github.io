@@ -6,7 +6,7 @@ class Skills extends Component {
         this.state={
             'myskills':[
                 // INSERT SKILLS HERE
-                'HTML','CSS','JS','PHP','REACT JS','FIREBASE','MIT APP'
+                'JavaScript', 'React.js', 'Ruby on Rails', 'HTML', 'CSS', 'SQLite', 'PostgreSQL'
             ]
         };
     }
