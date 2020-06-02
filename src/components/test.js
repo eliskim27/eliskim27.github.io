@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-class Social extends Component {
+class Widecard extends Component {
     render() {
         return (
-            <div class="social">
-            <a href="https://codepen.io/naafi" target="_blank"><i class="fab fa-codepen"></i></a>
-            <a href="https://github.com/naaficodes" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://Instagram.com/iam_naafi" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/abdul.w.naafi" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://Linkedin.com/in/naafi" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://medium.com/@iam_naafi" target="_blank"><i class="fab fa-medium-m"></i></a>
+            <div class="widecard">
+            <div class="compdet">
+            <h3>{this.props.title}</h3>
+            <h4 class="secondtext">{this.props.where}</h4>
+            <h4 class="secondtext">{this.props.from} - {this.props.to}</h4>
+            </div>
             </div>
             )
         }
     }
     
-export default 
+export default Widecard
