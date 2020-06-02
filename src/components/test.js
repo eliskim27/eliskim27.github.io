@@ -1,41 +1,36 @@
-// import React from 'react';
-// import './App.css';
-// import {
-//   BrowserRouter as Router,
-//   Route,
-// } from "react-router-dom";
-// import Navbar from './components/Navbar';
-// import Home from './contents/Home';
-// import About from './contents/About';
-// import Education from './contents/Education';
-// import Skills from './contents/Skills';
-// import Contact from './contents/Contact';
+// import React, { Component } from 'react';
+// import Navitem from './Navitem';
 
-
-
-// function App() {
-//   return (
-//     <Router>
-//     <div className="App">
-//     <Navbar />
-//     <Route exact path="/">
-//     <Home />
-//     </Route>
-//     <Route path="/about">
-//     <About />
-//     </Route>
-//     <Route path="/education">
-//     <Education />
-//     </Route>
-//     <Route path="/skills">
-//     <Skills />
-//     </Route>
-//     <Route path="/contact">
-//     <Contact />
-//     </Route>
-//     </div>
-//     </Router>
-//     );
-//   }
-  
-//   export default App;
+// class Navbar extends Component {
+//     constructor(props)
+//     {
+//         super(props);
+//         this.state={
+//             'NavItemActive':''
+//         }
+//     }
+//     activeitem=(x)=>
+//     {
+//         if(this.state.NavItemActive.length>0){
+//             document.getElementById(this.state.NavItemActive).classList.remove('active');
+//         }
+//         this.setState({'NavItemActive':x},()=>{
+//             document.getElementById(this.state.NavItemActive).classList.add('active');
+//         });
+//     };
+//     render() {
+//         return (
+//             <nav>
+//             <ul>
+//             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
+//             <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
+//             <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
+//             <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
+//             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+//             </ul>
+//             </nav>
+//         )
+//     }
+// }
+    
+//     export default Navbar
