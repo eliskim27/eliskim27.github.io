@@ -4,9 +4,9 @@ class About extends Component {
     render() {
         return (
             <div className="condiv">
-                <h1 className="subtopic">About Me</h1>
-                <h4>Hi there,</h4>
-                <h1>I'm Eli</h1>
+                <h1 className="subtopic">About Me</h1> 
+                <h2>Hi!</h2>
+                <h2>I'm Eli</h2>
                 <h3>Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
                 <br></br>
                 <p>short bio goes here</p>
