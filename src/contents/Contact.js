@@ -6,13 +6,13 @@ class Contact extends Component {
         return (
             <div className="condiv">
                 <h1 className="subtopic">Contact Me</h1>
-                <h3>Email  :   fill in</h3>
-                <h3>Instagram   :   fill in</h3>
-
+                <h3>Email  :   eliskim27@gmail.com</h3>
+                <h3>Instagram   :   </h3>
                 <Social />
             </div>
         )
     }
 }
-
+    
 export default Contact
+    

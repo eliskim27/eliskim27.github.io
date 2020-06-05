@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
 
 class Skills extends Component {
-    constructor(props) {
+    constructor(props)
+    {
         super(props);
         this.state={
-            'myskills':[
-                // INSERT SKILLS HERE
-                'JavaScript', 'React.js', 'Ruby on Rails', 'HTML', 'CSS', 'SQLite', 'PostgreSQL'
-            ]
+            'myskills':['JAVASCRIPT', 'REACT', 'HTML', 'CSS', 'RUBY', 'RAILS', 'SQLITE', 'POSTGRESQL', ]
         };
     }
 
-    render () {
+    render() {
         return (
             <div className="condiv skills">
                 <h1 className="subtopic">My Skills</h1>
@@ -24,5 +22,5 @@ class Skills extends Component {
         )
     }
 }
-
+    
 export default Skills

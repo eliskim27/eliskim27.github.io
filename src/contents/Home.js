@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import profilepic from '../img/StephEliWedding-182.jpg';
 import Social from '../components/Social'
 
 
-// PROFILE PICTURE
-import profilepic from '../img/IMG-3708.JPG';
 
 class Home extends Component {
     render() {
         return (
             <div className="condiv home">
-                <img src={profilepic} className="profilepic"></img>
+                <img 
+                    src={profilepic} 
+                    className="profilepic"
+                    alt="Welcome to Eli's Portfolio!">
+                    </img>
                 <ReactTypingEffect 
-                    className="typingeffect"
-                    
-                    // HOME PAGE TEXT
-                    text={['I am Eli Kim','I am a web developer']} 
+                    className="typingeffect" 
+                    text={["I'm Eli", "I'm a web developer"]} 
                     speed={100} 
                     eraseDelay={700}
                 />
-
-                <Social/>
+                <Social />
             </div>
         )
     }
 }
-
+    
 export default Home
-

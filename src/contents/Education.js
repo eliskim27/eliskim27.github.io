@@ -2,23 +2,23 @@ import React, { Component } from 'react';
 import Widecard from '../components/Widecard';
 
 class Education extends Component {
-    render () {
+    render() {
         return (
             <div className="condiv">
                 <h1 className="subtopic">My Education</h1>
                 <Widecard 
-                    title="Fullstack Software Engineering" 
-                    where="Flatiron School" 
-                    from="sometime" 
-                    to="sometime"/>
+                    title="M.Tech Software Engineering" 
+                    where="VIT University" 
+                    from="July 2017" 
+                    to="Present"/>
                 <Widecard 
-                    title="BA in Human Resources Management" 
-                    where="Rutgers University" 
-                    from="sometime" 
-                    to="sometime"/>
-            </div>      
+                    title="SSLC | HSC" 
+                    where="Islamiah Higher Secondary School" 
+                    from="2011" 
+                    to="2017"/>
+            </div>
         )
     }
 }
-
+    
 export default Education
