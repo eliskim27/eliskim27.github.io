@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 
 class Skills extends Component {
-    constructor(props)
-    {
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
             'myskills':['JAVASCRIPT', 'REACT', 'HTML', 'CSS', 'RUBY', 'RAILS', 'SQLITE', 'POSTGRESQL', ]
         };
     }

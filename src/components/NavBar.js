@@ -2,19 +2,18 @@ import React, { Component } from 'react';
 import Navitem from './Navitem';
 
 class Navbar extends Component {
-    constructor(props)
-    {
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
             'NavItemActive':''
         }
     }
-    activeitem=(x)=>
-    {
-        if(this.state.NavItemActive.length>0){
+
+    activeitem = (x) => {
+        if(this.state.NavItemActive.length>0) {
             document.getElementById(this.state.NavItemActive).classList.remove('active');
         }
-        this.setState({'NavItemActive':x},()=>{
+        this.setState({'NavItemActive':x}, () => {
             document.getElementById(this.state.NavItemActive).classList.add('active');
         });
     };
