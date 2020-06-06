@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Route,
 } from "react-router-dom";
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <NavBar />
 
         <Route exact path="/">      <Home />        </Route>
         <Route path="/about">       <About />       </Route>

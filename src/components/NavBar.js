@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
 
-class Navbar extends Component {
+class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -33,4 +33,4 @@ class Navbar extends Component {
     }
 }
     
-export default Navbar
+export default NavBar
