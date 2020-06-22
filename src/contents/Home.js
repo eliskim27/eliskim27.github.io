@@ -16,9 +16,9 @@ class Home extends Component {
                     </img>
                 <ReactTypingEffect 
                     className="typingeffect" 
-                    text={["I'm Eli", "I'm a web developer"]} 
-                    speed={100} 
-                    eraseDelay={700}
+                    text={["Hello, I'm Eli!", "I'm a web developer"]} 
+                    speed={70} 
+                    eraseDelay={500}
                 />
                 <Social />
             </div>
