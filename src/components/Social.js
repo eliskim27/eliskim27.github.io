@@ -29,9 +29,3 @@ class Social extends Component {
 }
 
 export default Social
-
-// medium
-// https://imgur.com/Cr9Mnrx
-// github
-// https://imgur.com/Xdi9gC9
-
