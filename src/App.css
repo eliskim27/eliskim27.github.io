@@ -54,6 +54,12 @@ nav
     font-size: var(--typing-font);
     margin-bottom: 30px;
   }
+.typingeffectstatic
+  {
+    font-size: var(--typing-font);
+    margin-bottom: 30px;
+    font-weight:normal;
+  }
 nav ul
   {
     font-size:var(--fontsize-nav) ;
