@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import profilepic from '../img/StephEliWedding-182.jpg';
+import profilepic from '../img/IMG_0541.jpg';
 import Social from '../components/Social'
 
 
@@ -21,6 +21,7 @@ class Home extends Component {
                         text={["I'm "]} 
                         speed={70} 
                         eraseDelay={100000000000}
+                        typingDelay={200}
                         cursor={String}
                     />
                     <ReactTypingEffect 
@@ -32,7 +33,8 @@ class Home extends Component {
                             " eager to meet you!"
                         ]} 
                         speed={70} 
-                        eraseDelay={10}
+                        eraseDelay={500}
+                        typingDelay={200}
                     />
                 </div>
                 <Social />
