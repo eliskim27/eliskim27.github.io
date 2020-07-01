@@ -18,7 +18,7 @@ class Home extends Component {
                     </img>
 
                 </div>
-                <div>
+                <div className="hometyping">
                     <ReactTypingEffect
                         className="typingeffect" 
                         text={["I'm "]} 
