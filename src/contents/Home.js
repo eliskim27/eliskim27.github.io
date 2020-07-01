@@ -40,7 +40,7 @@ class Home extends Component {
                         typingDelay={200}
                     />
                 </div>
-                <Social />
+                {/* <Social /> */}
             </div>
         )
     }
