@@ -7,15 +7,20 @@ class Education extends Component {
             <div className="condiv">
                 <h1 className="subtopic">My Education</h1>
                 <Widecard 
-                    title="M.Tech Software Engineering" 
-                    where="VIT University" 
-                    from="July 2017" 
-                    to="Present"/>
+                    title="Software Engineering Program" 
+                    schoolName="Flatiron School" 
+                    to="2020"
+                />
                 <Widecard 
-                    title="SSLC | HSC" 
-                    where="Islamiah Higher Secondary School" 
-                    from="2011" 
-                    to="2017"/>
+                    title="BA in Human Resource Management" 
+                    schoolName="Rutgers University" 
+                    to="2017"
+                />
+                <Widecard 
+                    title="31B - Military Police" 
+                    schoolName="Army Basic Training / AIT" 
+                    to="2013"
+                />
             </div>
         )
     }
