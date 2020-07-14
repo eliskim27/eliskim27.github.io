@@ -12,6 +12,17 @@ class About extends Component {
                 <p>
                     short about me
                 </p>
+                <p>
+                    add:
+                    resume component, 
+                    button to download resume, 
+                    button to email me,
+                    work history,
+
+                    to do:
+                    fix left side nav bar to be responsive
+                    scrolling site
+                </p>
             </div>
         )
     }
