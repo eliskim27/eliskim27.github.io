@@ -19,7 +19,7 @@ class Education extends Component {
                     to="2017"
                 />
                 <Widecard 
-                    title="31B - Military Police" 
+                    title="Military Police (31B)" 
                     schoolName="Army Basic Training / AIT" 
                     location="Ft. Leonard Wood, MO"
                     to="2013"
