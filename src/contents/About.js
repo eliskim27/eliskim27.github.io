@@ -24,6 +24,7 @@ class About extends Component {
                     no matter how big or small they might be.
                 </p>
                 <p>
+                <br/><br/><br/>
                     add:
                     resume component, 
                     button to download resume, 
