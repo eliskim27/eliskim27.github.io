@@ -5,9 +5,9 @@ class About extends Component {
         return (
             <div className="condiv">
                 <h1 className="subtopic">About Me (this page needs to be overhauled)</h1>
-                <h4>Hey there,</h4>
+                <h4>Hi there,</h4>
                 <h1>I'm Eli</h1>
-                <h3>Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
+                <h3>Software <u>Engineer</u> | Army <u>Veteran</u></h3>
                 <br></br>
                 <p>
                     short about me
