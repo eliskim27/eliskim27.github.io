@@ -10,7 +10,7 @@ class About extends Component {
                 <h3>Software <u>Engineer</u> | Army <u>Veteran</u></h3>
                 <br></br>
                 <p>
-                    short about me
+                    I am a software engineer, experienced in JavaScript-based programming, React, and Ruby on Rails. Military service in the US Army forged critical values in work ethic, adaptability, team-building, and completion of the mission. Driven by the creative, problem-solving aspect of developing, and is seeking to apply military and sales expertise to achieve results and pursue mastery. 
                 </p>
                 <p>
                     add:
