@@ -33,7 +33,8 @@ class Home extends Component {
                             " a software engineer!",
                             " a progammer!",
                             " a lifelong learner!",
-                            " eager to meet you!"
+                            " eager to meet you!",
+                            "ADD MORE TITLES/DESCRIPTORS/CUTSIE THINGS"
                         ]} 
                         speed={70} 
                         eraseDelay={500}

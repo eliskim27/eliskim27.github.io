@@ -4,10 +4,14 @@ class About extends Component {
     render() {
         return (
             <div className="condiv">
-                <h1 className="subtopic">About Me (this page needs to be overhauled)</h1>
+                <h1 className="subtopic">About Me</h1>
                 <h4>Hi there,</h4>
                 <h1>I'm Eli</h1>
-                <h3>Software <u>Engineer</u> | Army <u>Veteran</u></h3>
+                <h3>
+                    Software <u>Engineer</u> | 
+                    Army <u>Veteran</u> |
+                    Lifelong <u>Student</u>
+                </h3>
                 <br></br>
                 <p>
                     I am a software engineer! 
@@ -23,6 +27,11 @@ class About extends Component {
                     I love that we're creating real solutions to real problems, 
                     no matter how big or small they might be.
                 </p>
+                <p>
+                    I am always interested in meeting new people and having meaningful conversations.
+                    Please feel free to connect with me and reach out. I can't wait to hear from you!
+                </p>
+
                 <p>
                 <br/><br/><br/>
                     add:
