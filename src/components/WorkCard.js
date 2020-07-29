@@ -7,8 +7,13 @@ class WorkCard extends Component {
             <div className="widecard">
                 <div className="compdet">
                     <h2>{this.props.title}</h2>
-                    <h4 className="secondtext">{this.props.schoolName} - ({this.props.location})</h4>
-                    <h4 className="secondtext">{this.props.to}</h4>
+                    <h4 className="secondtext">{this.props.company}</h4>
+                    <h4 className="secondtext">{this.props.startDate} - {this.props.endDate}</h4>
+                    <ul>
+                        {this.props.description}.forEach(element => {
+                            <li>element</li>
+                        });
+                    </ul>
                 </div>
             </div>
         )
