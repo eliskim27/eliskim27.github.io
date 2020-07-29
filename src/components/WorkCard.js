@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 
 class WorkCard extends Component {
+
+    const bullets = {this.props.description.map(bullet => 
+        <li>bullet</li> 
+    )}
     
     render() {
         return (
@@ -9,11 +13,8 @@ class WorkCard extends Component {
                     <h2>{this.props.title}</h2>
                     <h4 className="secondtext">{this.props.company}</h4>
                     <h4 className="secondtext">{this.props.startDate} - {this.props.endDate}</h4>
-                    <ul>
-                        {this.props.description}.forEach(element => {
-                            <li>element</li>
-                        });
-                    </ul>
+                    <ul>{bullets}</ul>
+                 
                 </div>
             </div>
         )
