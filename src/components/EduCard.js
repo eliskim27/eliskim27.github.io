@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Widecard extends Component {
+class EduCard extends Component {
     
     render() {
         return (
@@ -15,4 +15,4 @@ class Widecard extends Component {
     }
 }
 
-export default Widecard
+export default EduCard
