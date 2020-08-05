@@ -12,7 +12,7 @@ class WorkCard extends Component {
                     <h4 className="secondtext">{this.props.company}</h4>
                     <h4 className="secondtext">{this.props.startDate} - {this.props.endDate}</h4>
                     {console.log(this.props.description)}
-                   
+                    <h6>{this.props.description}</h6>
                  
                 </div>
             </div>
