@@ -32,9 +32,12 @@ class Home extends Component {
                         text={[
                             " a software engineer!",
                             " a progammer!",
+                            " a developer!",
+                            " a coder!",
+                            " an Army Veteran!",
                             " a lifelong learner!",
                             " eager to meet you!",
-                            "ADD MORE TITLES/DESCRIPTORS/CUTSIE THINGS"
+                            " happy you're here!"
                         ]} 
                         speed={70} 
                         eraseDelay={500}
