@@ -29,7 +29,6 @@ class NavBar extends Component {
                     <Navitem item="Education"    tolink="/education"     activec={this.activeitem}></Navitem>
                     {/* maybe remove skills. whats the purpose? */}
                     <Navitem item="Skills"       tolink="/skills"        activec={this.activeitem}></Navitem>
-                    {/* <Navitem item="Contact"      tolink="/contact"       activec={this.activeitem}></Navitem> */}
                     <Navitem item="Work History" tolink="/workhistory"   activec={this.activeitem}></Navitem>
                     <Navitem item="Resume"       tolink="/resume"        activec={this.activeitem}></Navitem>
                 </ul>
