@@ -11,9 +11,11 @@ class WorkCard extends Component {
                     <h2>{this.props.title}</h2>
                     <h4 className="secondtext">{this.props.company}</h4>
                     <h4 className="secondtext">{this.props.startDate} - {this.props.endDate}</h4>
-                    {console.log(this.props.description)}
-                    <h6>{this.props.description}</h6>
-                 
+                    <ul>
+                        {this.props.description.map(function(bullet, index){
+                            return (<li key={index}>{bullet}</li>)
+                        })}
+                    </ul>
                 </div>
             </div>
         )
