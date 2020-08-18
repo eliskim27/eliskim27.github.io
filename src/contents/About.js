@@ -4,8 +4,7 @@ class About extends Component {
     render() {
         return (
             <div className="condiv">
-                <h1 className="subtopic">About Me</h1>
-                <h4>Hi there,</h4>
+                <h3>Hi there,</h3>
                 <h1>I'm Eli</h1>
                 <h3>
                     Software <u>Engineer</u> | 
@@ -32,18 +31,7 @@ class About extends Component {
                     Please feel free to connect with me and reach out. I can't wait to hear from you!
                 </p>
 
-                <p>
-                <br/><br/><br/>
-                    add:
-                    resume component, 
-                    button to download resume, 
-                    button to email me,
-                    work history,
 
-                    to do:
-                    fix left side nav bar to be responsive
-                    scrolling site
-                </p>
             </div>
         )
     }
