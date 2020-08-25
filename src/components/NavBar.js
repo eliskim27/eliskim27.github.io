@@ -22,7 +22,7 @@ class NavBar extends Component {
 
     render() {
         return (
-            <nav>
+            <nav id="mySidenav" class="sidenav">
                 <ul>
                     <Navitem item="Home"         tolink="/"              activec={this.activeitem}></Navitem>
                     <Navitem item="About"        tolink="/about"         activec={this.activeitem}></Navitem>
