@@ -29,25 +29,7 @@ nav
     flex:var(--sidebar-flex);
     background: rgb(245, 48, 48);
     background: linear-gradient(180deg, rgb(30, 42, 99) 40%, rgb(139, 134, 214) 80%);
-    position: fixed;
-    z-index: 1;
-    height: 100%;
-    top: 0;
-    overflow-x: hidden;
   }
-nav ul
-  {
-    font-size:var(--fontsize-nav) ;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    color: white !important;
-  }
-nav ul li
-  {
-    margin:40px;
-  }
-
 .condiv
   {
     padding: 70px ;
@@ -90,6 +72,18 @@ nav ul li
     font-size: var(--typing-font);
     margin-bottom: 30px;
     font-weight:normal;
+  }
+nav ul
+  {
+    font-size:var(--fontsize-nav) ;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: white !important;
+  }
+nav ul li
+  {
+    margin:40px;
   }
 a
   {
