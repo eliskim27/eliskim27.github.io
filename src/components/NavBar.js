@@ -30,7 +30,7 @@ class NavBar extends Component {
                     {/* maybe remove skills. whats the purpose? */}
                     <Navitem item="Skills"       tolink="/skills"        activec={this.activeitem}></Navitem>
                     <Navitem item="Work History" tolink="/workhistory"   activec={this.activeitem}></Navitem>
-                    <a href="https://drive.google.com/file/d/1RyUGXk5Q9ACYKXa6EAawmA1qTHGPh95j/view?usp=sharing">Resume</a>
+                    <a href="https://drive.google.com/file/d/1RyUGXk5Q9ACYKXa6EAawmA1qTHGPh95j/view?usp=sharing" target="_blank">Resume</a>
                 </ul>
                 <Social />
             </nav>
