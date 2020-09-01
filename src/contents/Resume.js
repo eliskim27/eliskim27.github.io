@@ -8,10 +8,9 @@ class Resume extends Component {
             <div className="condiv">
                 <h1 className="subtopic">Resume</h1>
                 <Document
-                    // file="../img/Eli Kim Resume.pdf"
-                >
+                    file="https://drive.google.com/file/d/1RyUGXk5Q9ACYKXa6EAawmA1qTHGPh95j/view?usp=sharing"
+                />
 
-                </Document>
             </div>
         )
     }
