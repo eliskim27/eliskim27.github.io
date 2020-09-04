@@ -80,6 +80,7 @@ nav ul
     list-style-type: none;
     text-decoration: none;
     color: white !important;
+    position: sticky;
   }
 nav ul li
   {
@@ -170,7 +171,8 @@ h1,h2,h3,h4,p
   nav ul
     {
       display: flex;
-      position: sticky;
+      /* position: sticky;
+      top: 0; */
     }
   nav ul li
     {
