@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        <NavBar className="sidenav"/>
       
         <Route exact path="/">      <Home />        </Route>
         <Route path="/about">       <About />       </Route>
