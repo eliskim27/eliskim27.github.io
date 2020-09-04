@@ -15,15 +15,18 @@ import WorkHistory from './contents/WorkHistory';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
+        <div className="App">
+          
+        
+          <Route exact path="/">      <Home />        </Route>
+          <Route path="/about">       <About />       </Route>
+          <Route path="/education">   <Education />   </Route>
+          <Route path="/skills">      <Skills />      </Route>
+          {/* <Route path="/resume">      <Resume />      </Route> */}
+          <Route path="/workhistory"> <WorkHistory /> </Route>
+        </div>
         <NavBar />
-      
-        <Route exact path="/">      <Home />        </Route>
-        <Route path="/about">       <About />       </Route>
-        <Route path="/education">   <Education />   </Route>
-        <Route path="/skills">      <Skills />      </Route>
-        {/* <Route path="/resume">      <Resume />      </Route> */}
-        <Route path="/workhistory"> <WorkHistory /> </Route>
       </div>
     </Router>
     );
