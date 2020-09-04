@@ -29,6 +29,7 @@ nav
     flex:var(--sidebar-flex);
     background: rgb(245, 48, 48);
     background: linear-gradient(180deg, rgb(30, 42, 99) 40%, rgb(139, 134, 214) 80%);
+    position: sticky;
   }
 .condiv
   {
@@ -196,6 +197,3 @@ h1,h2,h3,h4,p
   margin-bottom: 5px;
 }
 
-.sidenav {
-  position: sticky;
-}
